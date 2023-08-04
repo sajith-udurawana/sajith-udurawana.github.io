@@ -1,0 +1,9 @@
+title: Sajith Udurawana (MBBS)
+description: Passionate Medical Doctor | Driving Innovation and Advancement in Healthcare
+baseurl: ""
+url: "https://sajith-udurawana.github.io"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
