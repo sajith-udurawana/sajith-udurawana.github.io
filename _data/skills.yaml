@@ -1,18 +1,27 @@
 - name: UI/UX (Wireframing, High-fidelity Designs & Prototyping)
-  tools: Figma, Sketch and Miro
   level: 4.0
-- name: Computer Programming
-  tools: Python, Dart, JavaScript (ES6), HTML, CSS3
+  tools: Miro, Figma, Sketch
+- name: Front-End Web Technologies
+  level: 4.0
+  tools: React JS with Redux/Redux Toolkit, Zustand
+- name: Cross-Platform Mobile Development
+  level: 4.0
+  tools: React Native, Flutter
+- name: Hybrid Mobile Development
+  level: 4.0
+  tools: Apache Cordova, Capacitor JS
+- name: Serverless Technologies
   level: 3.5
-- name: Project & Delivery Management
-  tools: Jira, Confluence
-  level: 3.5
-- name: Version control
+  tools: Next JS, Vercel, Firebase
+- name: Back-End Web Technologies
+  level: 3.0
+  tools: Express JS, Mongo DB, Sequalize, PHP with Composer
+- name: SEO/Cross Browse Compatibility & Optimization
+  level: 4.0
+  tools: Ahrefs, Google Lighthouse
+- name: Version Control
+  level: 4.0
   tools: Git
+- name: Project Management
   level: 4.0
-- name: Medical/scientific Content Writing
-  tools: PubMed, Hinari, Hindawi
-  level: 3.5
-- name: Teaching & communication
-  tools: English (Fluent)
-  level: 4.0
+  tools: Jira
