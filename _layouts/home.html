@@ -7,8 +7,8 @@ layout: default
             <div class="bg-light min-vh-100 h-100 py-5">
                 <div class="text-center px-5 mb-5">
                     <img src="/assets/img/profile.jpg" class="img-fluid profile-image shadow shadow-sm mb-3" />
-                    <h1 class="fw-bold fs-1 text-dark">{{ site.data.bio.name }}</h1>
-                    <p class="fs-5 text-secondary">{{ site.data.bio.tagline }}</p>
+                    <h1 class="fw-bold fs-3 text-dark">{{ site.data.bio.name }}</h1>
+                    <p class="fs-6 text-secondary">{{ site.data.bio.tagline }}</p>
                 </div>
                 <div class="px-5 mb-5">
                     <h2 class="fs-5 mb-3 fw-bold text-primary">PROFILE</h2>
@@ -61,7 +61,7 @@ layout: default
                     <div class="row g-0 g-lg-5">
                         <div class="col">
                             <div class="text-primary fs-6">{{item.from}} - {{item.to}}</div>
-                            <div class="text-dark fs-4 fw-bold">{{item.position}}</div>
+                            <div class="text-dark fs-4">{{item.position}}</div>
                             <div class="fs-5 fw-bold">
                                 <a target="_blank" href={{item.link}} class="text-primary"
                                     style="text-decoration: none;">{{item.company}} <svg
@@ -74,7 +74,7 @@ layout: default
                                     </svg>
                                 </a>
                             </div>
-                            <p class="text-jusify text-muted">{{item.description | markdownify}}</p>
+                            <p class="text-jusify text-muted ff-serif">{{item.description | markdownify}}</p>
                         </div>
                     </div>
                 </div>
@@ -82,9 +82,27 @@ layout: default
             </article>
         </div>
     </div>
-    <div class="row">
+    <div class="row mb-5">
         <div class="col">
-
+            <article>
+                <h2 class="fw-bold my-5 text-muted text-center text-lg-start">PROJECTS</h2>
+                <div class="row row-cols-1 row-cols-lg-2 g-3">
+                    {% for project in site.data.projects %}
+                    <div class="col">
+                        <div class="shadow shadow-sm border p-3 h-100">
+                            <div class="fw-bold fs-6 text-primary">{{project.role}}</div>
+                            <div class="fs-5 text-dark">{{project.name}}</div>
+                            <div class="fs-6 text-muted">{{project.category}}</div>
+                            <p class="ff-serif">{{project.description | markdownify}}</p>
+                            {% assign tags = project.technologies | split: ',' %}
+                            {% for item in tags %}
+                            <span class="badge me-1 bg-primary">{{item}}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </article>
         </div>
     </div>
 </div>

@@ -1,0 +1,24 @@
+- name: Xplora Mining (Web/Android/iOS)
+  role: Lead Developer · (2020 - PRESENT)
+  category: Internal Productivity App
+  technologies: Flutter, Provider, Riverpod, React, Redux
+  description: |
+    I took the lead in developing Xplora Mining, an internal productivity application tailored for a leading global silver mining firm headquartered in Vancouver, Canada. This sophisticated tool serves as a central hub for over 500 employees, facilitating the tracking of essential mining activities, ensuring adherence to health and safety standards, and managing financial aspects.
+
+    A notable achievement was the integration of a real-time chat feature within the application, which replaced the need for external messaging platforms and led to a significant enhancement in internal communication efficiency.
+- name: IIYF Life (Web/Android/iOS)
+  role: Lead Developer · (2022 - PRESENT)
+  category: Lifestyle App
+  technologies: React Native, React, Redux Toolkit, Jest, Firebase
+  description: |
+
+    I played a pivotal role in enhancing the IIYF lifestyle app, which seamlessly integrates an extensive facility management system. This innovative app caters to both residential and commercial tenants, offering features such as Service Request Management, Work Order Tracking, Utility Bill Invoicing, and Lifestyle services. It includes a comprehensive admin panel with role-based permissions for internal facility management.
+
+    The IIYF app is continuously evolving based on client feedback and industry standards. It is currently in the review phase and will soon be available for download on major app stores.
+- name: CarboneSpaces (Web)
+  role: Lead Developer · (2022 - PRESENT)
+  category: Productivity Web Platform
+  technologies: React, Redux Toolkit, Jest, Express, Sequalize
+  description: |
+
+    Carbonespaces stands as the world's foremost carbon initiative, driven by a mission to compile and detail all global carbon projects comprehensively. My substantial contribution to this endeavor involved a significant site overhaul and migration to React.js, a strategic move aimed at enhancing site speed and ensuring seamless cross- browser compatibility.
