@@ -23,23 +23,33 @@
 
     Carbonespaces stands as the world's foremost carbon initiative, driven by a mission to compile and detail all global carbon projects comprehensively. My substantial contribution to this endeavor involved a significant site overhaul and migration to React.js, a strategic move aimed at enhancing site speed and ensuring seamless cross- browser compatibility.
 
+    This project showcases my expertise in web development and commitment to advancing important global missions through technology.
+
 - name: In 28 Minutes (https://www.in28minutes.com/)
-  role: Sole Developer 2019
+  role: Sole Developer · 2019
   category: Online learning platform
   technologies: HTML, CSS, JS, SEO
   description: |
-    In 28 Minutes is an online learning platform for Java/Springboot beginners.
+    "In 28 Minutes" is a dedicated platform that serves as a guiding light for learners looking to embark on their programming journey. A standout feature of this website is the meticulously designed flashcards section, which I developed entirely from scratch. These flashcards serve as invaluable tools, aiding students in revising their lessons effectively. Through careful attention to responsive design, user-friendly interfaces, and seamless content integration, I ensured that the platform provides an intuitive and engaging learning experience.
+
+    This project is a testament to my expertise in web development and my commitment to fostering an environment where students can thrive and excel in their programming endeavors.
 
 - name: PCB Crew (https://pcbcrew.com/)
-  role: Sole Developer 2019
+  role: Sole Developer · 2019
   category: Corporate Website
   technologies: HTML, CSS, JS, PHP
   description: |
-    PCB Crew is a PCB manufacturing company based in China.
+    As the developer behind PCB Crew's corporate website, I am proud to have contributed to establishing their online presence. PCB Crew is a prominent PCB manufacturing company situated in the heart of China's technological landscape. 
+
+    Leveraging my expertise, I designed and developed a robust website that effectively showcases their capabilities and commitment to excellence. By incorporating responsive design principles, user-friendly navigation, and seamless integration of content, I ensured that visitors can easily explore PCB Crew's services and resources.
+
+    This project exemplifies my proficiency in web development and my ability to create engaging and informative online platforms for businesses in the highly competitive electronics industry.
 
 - name: West Creek Enterprise (https://www.westcreekenterprise.com/)
-  role: Sole Developer 2020
+  role: Sole Developer · 2020
   category: Corporate Website
   technologies: HTML, CSS, JS, PHP
   description: |
-    West Creek Enterprise provides services such as Lead Generation, Data Enrichment, and Analytics Expertise to many global companies.
+    As the developer responsible for crafting West Creek Enterprise's corporate website, I had the privilege of capturing the essence of their extensive service offerings. West Creek Enterprise is a renowned provider of essential services, including Lead Generation, Data Enrichment, and Analytics Expertise, catering to a diverse clientele across the globe. 
+
+    My role involved translating their mission and capabilities into a visually appealing and highly functional online platform. By focusing on responsive design, intuitive user interfaces, and seamless content integration, I ensured that visitors can easily access information about West Creek's services and its global impact. This project showcases my proficiency in web development and my dedication to delivering compelling digital experiences for businesses operating on a global scale.

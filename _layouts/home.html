@@ -3,18 +3,18 @@ layout: default
 ---
 <div class="container">
     <div class="row">
-        <div class="col-12 col-lg-5">
-            <div class="bg-light min-vh-100 h-100 py-5">
-                <div class="text-center px-5 mb-5">
+        <div class="col-12">
+            <div class="bg-light min-vh-100 h-100 py-3 py-lg-5">
+                <div class="text-center px-3 px-lg-5 mb-5">
                     <img src="/assets/img/profile.jpg" class="img-fluid profile-image shadow shadow-sm mb-3" />
                     <h1 class="fw-bold fs-3 text-dark">{{ site.data.bio.name }}</h1>
                     <p class="fs-6 text-secondary">{{ site.data.bio.tagline }}</p>
                 </div>
-                <div class="px-5 mb-5">
+                <div class="px-3 px-lg-5 mb-5">
                     <h2 class="fs-5 mb-3 fw-bold text-primary">PROFILE</h2>
                     <p>{{site.data.bio.profile | markdownify}}</p>
                 </div>
-                <div class="px-5 mb-5">
+                <div class="px-3 px-lg-5 mb-5">
                     <h2 class="fs-5 mb-3 fw-bold text-primary">REACH ME</h2>
                     <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-phone-fill" viewBox="0 0 16 16">
@@ -36,7 +36,7 @@ layout: default
                         </svg> <a href="{{ 'https://linkedin.com/in/' | append: site.data.bio.linkedin }}"
                             class="text-dark" style="text-decoration: none;">@{{site.data.bio.linkedin}}</a></p>
                 </div>
-                <div class="px-5">
+                <div class="px-3 px-lg-5">
                     <h2 class="fs-5 fw-bold mb-3 text-primary">SKILLS</h2>
                     {% for item in site.data.skills %}
                     <div class="mb-4">
@@ -53,7 +53,7 @@ layout: default
                 </div>
             </div>
         </div>
-        <div class="col-12 col-lg-7">
+        <div class="col-12">
             <article>
                 <h2 class="fw-bold my-5 text-muted text-center text-lg-start">WORK EXPERIENCE</h2>
                 {% for item in site.data.tech %}
@@ -82,7 +82,7 @@ layout: default
             </article>
         </div>
     </div>
-    <div class="row mb-5">
+    <div class="row">
         <div class="col">
             <article>
                 <h2 class="fw-bold my-5 text-muted text-center text-lg-start">PROJECTS</h2>
@@ -93,6 +93,29 @@ layout: default
                             <div class="fw-bold fs-6 text-primary">{{project.role}}</div>
                             <div class="fs-5 text-dark">{{project.name}}</div>
                             <div class="fs-6 text-muted">{{project.category}}</div>
+                            <p class="ff-serif">{{project.description | markdownify}}</p>
+                            {% assign tags = project.technologies | split: ',' %}
+                            {% for item in tags %}
+                            <span class="badge me-1 bg-primary">{{item}}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col">
+            <article>
+                <h2 class="fw-bold my-5 text-muted text-center text-lg-start">VOLUNTEER ACTIVITIES</h2>
+                <div class="row row-cols-1">
+                    {% for project in site.data.volunteer %}
+                    <div class="col">
+                        <div class="shadow shadow-sm border p-3 h-100">
+                            <div class="fw-bold fs-6 text-primary">{{project.role}}</div>
+                            <div class="fs-5 text-dark">{{project.organization}}</div>
+                            <div class="fs-6 text-muted">{{project.from}} - {{project.to}}</div>
                             <p class="ff-serif">{{project.description | markdownify}}</p>
                             {% assign tags = project.technologies | split: ',' %}
                             {% for item in tags %}
