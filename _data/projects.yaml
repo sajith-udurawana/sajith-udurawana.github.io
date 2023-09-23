@@ -22,3 +22,24 @@
   description: |
 
     Carbonespaces stands as the world's foremost carbon initiative, driven by a mission to compile and detail all global carbon projects comprehensively. My substantial contribution to this endeavor involved a significant site overhaul and migration to React.js, a strategic move aimed at enhancing site speed and ensuring seamless cross- browser compatibility.
+
+- name: In 28 Minutes (https://www.in28minutes.com/)
+  role: Sole Developer 2019
+  category: Online learning platform
+  technologies: HTML, CSS, JS, SEO
+  description: |
+    In 28 Minutes is an online learning platform for Java/Springboot beginners.
+
+- name: PCB Crew (https://pcbcrew.com/)
+  role: Sole Developer 2019
+  category: Corporate Website
+  technologies: HTML, CSS, JS, PHP
+  description: |
+    PCB Crew is a PCB manufacturing company based in China.
+
+- name: West Creek Enterprise (https://www.westcreekenterprise.com/)
+  role: Sole Developer 2020
+  category: Corporate Website
+  technologies: HTML, CSS, JS, PHP
+  description: |
+    West Creek Enterprise provides services such as Lead Generation, Data Enrichment, and Analytics Expertise to many global companies.
