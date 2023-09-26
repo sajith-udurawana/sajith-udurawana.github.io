@@ -15,7 +15,7 @@
   tools: Next JS, Vercel, Firebase
 - name: Back-End Web Technologies
   level: 3.0
-  tools: Express JS, Mongo DB, Sequalize, PHP with Composer
+  tools: Express JS, Mongo DB, Sequalize, Python Fast API, PHP with Composer
 - name: SEO/Cross Browse Compatibility & Optimization
   level: 4.0
   tools: Ahrefs, Google Lighthouse
