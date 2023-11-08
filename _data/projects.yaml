@@ -1,7 +1,7 @@
 - name: Xplora Mining (Web/Android/iOS)
   role: Lead Developer · (2020 - PRESENT)
   category: Internal Productivity App
-  technologies: Flutter, Provider, Riverpod, React, Redux
+  technologies: React JS, Redux Toolkit, Jest, Flutter with Provider/RiverPod, Flutter Test, Express, Mongo DB, Firebase Analytics
   description: |
     I took the lead in developing Xplora Mining, an internal productivity application tailored for a leading global silver mining firm headquartered in Vancouver, Canada. This sophisticated tool serves as a central hub for over 500 employees, facilitating the tracking of essential mining activities, ensuring adherence to health and safety standards, and managing financial aspects.
 
@@ -9,7 +9,7 @@
 - name: IIYF Life (Web/Android/iOS)
   role: Lead Developer · (2022 - PRESENT)
   category: Lifestyle App
-  technologies: React Native, React, Redux Toolkit, Jest, Firebase
+  technologies: React Native, Redux SAGA, Express, MySQL (Sequalize), Jest
   description: |
 
     I played a pivotal role in enhancing the IIYF lifestyle app, which seamlessly integrates an extensive facility management system. This innovative app caters to both residential and commercial tenants, offering features such as Service Request Management, Work Order Tracking, Utility Bill Invoicing, and Lifestyle services. It includes a comprehensive admin panel with role-based permissions for internal facility management.
@@ -18,7 +18,7 @@
 - name: CarboneSpaces (Web)
   role: Lead Developer · (2022 - PRESENT)
   category: Productivity Web Platform
-  technologies: React, Redux Toolkit, Jest, Express, Sequalize
+  technologies: React JS, Mongo DB, Express, MySQL, Prisma, Jest, Enzyme
   description: |
 
     Carbonespaces stands as the world's foremost carbon initiative, driven by a mission to compile and detail all global carbon projects comprehensively. My substantial contribution to this endeavor involved a significant site overhaul and migration to React.js, a strategic move aimed at enhancing site speed and ensuring seamless cross- browser compatibility.
@@ -28,7 +28,7 @@
 - name: In 28 Minutes (https://www.in28minutes.com/)
   role: Sole Developer · 2019
   category: Online learning platform
-  technologies: HTML, CSS, JS, SEO
+  technologies: HTML, CSS, JS, Java, Google Analytics
   description: |
     "In 28 Minutes" is a dedicated platform that serves as a guiding light for learners looking to embark on their programming journey. A standout feature of this website is the meticulously designed flashcards section, which I developed entirely from scratch. These flashcards serve as invaluable tools, aiding students in revising their lessons effectively. Through careful attention to responsive design, user-friendly interfaces, and seamless content integration, I ensured that the platform provides an intuitive and engaging learning experience.
 
@@ -37,7 +37,7 @@
 - name: PCB Crew (https://pcbcrew.com/)
   role: Sole Developer · 2019
   category: Corporate Website
-  technologies: HTML, CSS, JS, PHP
+  technologies: HTML, CSS, JS, PHP, Python
   description: |
     As the developer behind PCB Crew's corporate website, I am proud to have contributed to establishing their online presence. PCB Crew is a prominent PCB manufacturing company situated in the heart of China's technological landscape. 
 

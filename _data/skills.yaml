@@ -1,27 +1,33 @@
-- name: UI/UX (Wireframing, High-fidelity Designs & Prototyping)
+- name: UI/UX/Prototyping
   level: 4.0
-  tools: Miro, Figma, Sketch
-- name: Front-End Web Technologies
+  tools: Miro, Figma, Sketch & Adobe XD
+- name: Front-End Development
   level: 4.0
-  tools: React JS with Redux/Redux Toolkit, Zustand
+  tools: Redux, SAGA, Async Thunk, Redux Toolkit, Zustand, Vue JS, Svelte, Mithril, Bootstrap 5
+- name: Back-End Development
+  level: 4.0
+  tools: Node JS, Express, MongoDB, MySQL (Sequalize, Prisma), SQLite, PHP, Python (Fast API, Flask)
+- name: Serverless Technologies/Services
+  level: 4.0
+  tools: Firebase, Next JS, Vercel
+- name: Native Mobile Development - Android
+  level: 3.5
+  tools: Android Studio (Jetpack Compose), Kotlin, Java
 - name: Cross-Platform Mobile Development
-  level: 4.0
-  tools: React Native, Flutter
+  level: 3.0
+  tools: Flutter (RiverPod, Provider), React-Native
 - name: Hybrid Mobile Development
   level: 4.0
-  tools: Apache Cordova, Capacitor JS
-- name: Serverless Technologies
-  level: 3.5
-  tools: Next JS, Vercel, Firebase
-- name: Back-End Web Technologies
-  level: 3.0
-  tools: Express JS, Mongo DB, Sequalize, Python Fast API, PHP with Composer
-- name: SEO/Cross Browse Compatibility & Optimization
+  tools: Cordova/PhoneGap/Capacitor JS
+- name: Unit Testing
   level: 4.0
-  tools: Ahrefs, Google Lighthouse
+  tools: Jest, Enzyme, Flutter Tests
+- name: Analytics Integration
+  level: 4.0
+  tools: Google Analytics, Firebase
 - name: Version Control
   level: 4.0
   tools: Git
-- name: Project Management
+- name: Project Management & Delivery Optimization
   level: 4.0
-  tools: Jira
+  tools: Jira, Confluence
