@@ -1,33 +1,52 @@
 - company: Amerck Inc.
   from: Jan 2020
   to: Present
-  position: Lead Web & Mobile Developer
+  position: Senior Web & Mobile Developer
   description: |
-    • Led a team of 12 developers on multiple medium to large-scale projects.
-    
-    • Managed resource allocation and provided mentorship to junior developers.
-    
-    • Conducted code reviews and ensured on-time project delivery in alignment with business objectives.
-    
-    • Enforced clean coding standards to enhance code readability, maintainability, testability, and extensibility.
+    • Design and develop responsive and user-friendly web and mobile applications using the latest technologies and industry best practices.
+
+    • Lead and collaborate with a team of developers to achieve project goals and deliver high-quality software solutions.
+
+    • Analyze project requirements and provide technical expertise to guide the development process.
+
+    • Conduct thorough testing and debugging to ensure the functionality, performance, and security of applications.
+
+    • Maintain and update existing web and mobile applications, addressing any issues or improvements as needed.
+
+    • Stay informed about the latest trends and advancements in web and mobile development, and apply new knowledge to enhance projects.
+    • Provide technical support and mentorship to junior developers, fostering a collaborative and learning-oriented environment.
   link: "https://amerck.com/"
 
 - company: Freelancer
-  from: Jan 2018
+  from: 2018
   to: Jan 2020
-  position: Full-Stack Developer
+  position: Web & Mobile Developer
   description: |
-    As a freelance full-stack developer, I worked with a diverse range of international clients via a variety of popular freelancing platforms. In addition, I received several custom projects as a result of the connections I made while working on those platforms.
+    • Independently developed and maintained responsive web applications using React JS, ensuring user-friendly interfaces.
 
-    I was able to broaden my knowledge of Python, Java, and PHP while also improving my time management, project management, and delivery optimization skills.
+    • Created cross-platform mobile apps using React Native, delivering consistent experiences on iOS and Android.
+
+    • Utilized Laravel for server-side scripting, implementing robust and scalable back-end solutions.
+
+    • Designed and implemented visually appealing front-end interfaces using Bootstrap, HTML, and CSS.
+
+    • Collaborated with clients to understand project requirements and delivered tailored solutions.
+
+    • Successfully completed more than 10 projects, meeting or exceeding client expectations.
+
+    • Implemented efficient and optimized code, resulting in improved application performance.
+
+    • Provided ongoing support and maintenance for clients, addressing issues promptly.
   link: "#"
 
 - company: Medical Joyworks LLC.
-  from: Jan 2015
-  to: Jan 2018
-  position: Product Team Intern/Junior Developer (PHP, JS)
+  from: 2015
+  to: 2017
+  position: Junior Web Developer
   description: |
-    I started out as a product team intern at Medical Joyworks LLC. They extended an offer to continue as a product team member and junior PHP developer to contribute to the company's mission based on my dedication, enthusiasm, and performance.
-    
-    This allowed me to blend my technical skills with a passion for education. It was a rewarding experience to be part of a team dedicated to making high-quality medical education more accessible and interactive through innovative app and web-based solutions.
+    • Joined as an intern and swiftly adapted to web development tasks using PHP and Laravel.
+
+    • Collaborated in the development and maintenance of web applications, contributing to various stages of the project life cycle.
+
+    • Assisted in creating responsive and user-friendly interfaces, utilizing HTML, CSS, and Bootstrap.
   link: https://medicaljoyworks.com
